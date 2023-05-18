@@ -17,6 +17,7 @@ namespace RestauranteWeb.Domain.Entities
         public Prato(string nome,string categoria, TimeSpan preparo, decimal valor, bool status, string descricao) 
         {
             ValidarCampos(nome, categoria, preparo, valor, status, descricao);
+            Pedidos = new List<Pedido>();
         }
 
         public Prato(int id, string nome, string categoria, TimeSpan preparo, decimal valor, bool status, string descricao)
@@ -25,6 +26,7 @@ namespace RestauranteWeb.Domain.Entities
 
             Id = id;
             ValidarCampos(nome, categoria, preparo, valor, status, descricao);
+            Pedidos = new List<Pedido>();
         }
 
         private void ValidarCampos(string nome, string categoria,TimeSpan preparo, decimal valor, bool status, string? descricao)

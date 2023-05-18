@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "msSNIFsQGrh2+o31KlVoBWIGSCB1qDioMA/6w1ylXqsunm26p2qPeFxjl89MV0XXqjrCQihYHRUqtjwPojFY4w==",
+  "dgSpecHash": "EK+WFSKghmoaPvglmUC/RLiX8qZyW4zXpgS9m4Y0U2OvweSvbj1TLf8IRoG0c/YVaUVrfO7KeyWPu80ixB+qLA==",
   "success": true,
   "projectFilePath": "C:\\Users\\gusta_ydcrnuq\\OneDrive\\Área de Trabalho\\Projetos\\RestauranteWeb\\RestauranteWeb\\RestauranteWeb.Application\\RestauranteWeb.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\gusta_ydcrnuq\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\gusta_ydcrnuq\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
+    "C:\\Users\\gusta_ydcrnuq\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

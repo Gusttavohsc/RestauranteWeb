@@ -1,0 +1,12 @@
+C:\Users\gusta_ydcrnuq\OneDrive\Área de Trabalho\Projetos\RestauranteWeb\RestauranteWeb\RestauranteWeb.Domain\bin\Debug\net6.0\RestauranteWeb.Domain.deps.json
+C:\Users\gusta_ydcrnuq\OneDrive\Área de Trabalho\Projetos\RestauranteWeb\RestauranteWeb\RestauranteWeb.Domain\bin\Debug\net6.0\RestauranteWeb.Domain.dll
+C:\Users\gusta_ydcrnuq\OneDrive\Área de Trabalho\Projetos\RestauranteWeb\RestauranteWeb\RestauranteWeb.Domain\bin\Debug\net6.0\RestauranteWeb.Domain.pdb
+C:\Users\gusta_ydcrnuq\OneDrive\Área de Trabalho\Projetos\RestauranteWeb\RestauranteWeb\RestauranteWeb.Domain\obj\Debug\net6.0\RestauranteWeb.Domain.csproj.AssemblyReference.cache
+C:\Users\gusta_ydcrnuq\OneDrive\Área de Trabalho\Projetos\RestauranteWeb\RestauranteWeb\RestauranteWeb.Domain\obj\Debug\net6.0\RestauranteWeb.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gusta_ydcrnuq\OneDrive\Área de Trabalho\Projetos\RestauranteWeb\RestauranteWeb\RestauranteWeb.Domain\obj\Debug\net6.0\RestauranteWeb.Domain.AssemblyInfoInputs.cache
+C:\Users\gusta_ydcrnuq\OneDrive\Área de Trabalho\Projetos\RestauranteWeb\RestauranteWeb\RestauranteWeb.Domain\obj\Debug\net6.0\RestauranteWeb.Domain.AssemblyInfo.cs
+C:\Users\gusta_ydcrnuq\OneDrive\Área de Trabalho\Projetos\RestauranteWeb\RestauranteWeb\RestauranteWeb.Domain\obj\Debug\net6.0\RestauranteWeb.Domain.csproj.CoreCompileInputs.cache
+C:\Users\gusta_ydcrnuq\OneDrive\Área de Trabalho\Projetos\RestauranteWeb\RestauranteWeb\RestauranteWeb.Domain\obj\Debug\net6.0\RestauranteWeb.Domain.dll
+C:\Users\gusta_ydcrnuq\OneDrive\Área de Trabalho\Projetos\RestauranteWeb\RestauranteWeb\RestauranteWeb.Domain\obj\Debug\net6.0\refint\RestauranteWeb.Domain.dll
+C:\Users\gusta_ydcrnuq\OneDrive\Área de Trabalho\Projetos\RestauranteWeb\RestauranteWeb\RestauranteWeb.Domain\obj\Debug\net6.0\RestauranteWeb.Domain.pdb
+C:\Users\gusta_ydcrnuq\OneDrive\Área de Trabalho\Projetos\RestauranteWeb\RestauranteWeb\RestauranteWeb.Domain\obj\Debug\net6.0\ref\RestauranteWeb.Domain.dll

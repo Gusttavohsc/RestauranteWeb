@@ -11,6 +11,7 @@ namespace RestauranteWeb.Domain.Entities
         public int IdPrato { get; private set; }
         public int Mesa { get; private set; }
         public TimeSpan Preparo { get; private set; }
+        public DateTime Restante { get; private set; }
         public decimal Valor { get; private set; }
 
         public Cliente Cliente { get; set; }
@@ -26,6 +27,8 @@ namespace RestauranteWeb.Domain.Entities
             DomainValidationException.Validar(id < 0, "Campo ID do pedido deve ser informado");
             ValidarCampos(idCliente, idPrato, mesa, preparo, valor);
             Id = id;
+            Preparo += preparo;
+            Restante += preparo;
         }
 
         private void ValidarCampos(int idCliente, int idPrato, int mesa, TimeSpan preparo, decimal valor)
@@ -40,6 +43,7 @@ namespace RestauranteWeb.Domain.Entities
             IdPrato = idPrato;
             Mesa = mesa;
             Preparo = preparo;
+            Restante = DateTime.Now;
             Valor = valor;
         }
 

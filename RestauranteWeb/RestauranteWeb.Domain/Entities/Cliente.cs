@@ -14,6 +14,7 @@ namespace RestauranteWeb.Domain.Entities
         public Cliente(string nome, string documento) 
         {
             ValidarCampos(nome, documento);
+            Pedidos = new List<Pedido>();
         }
 
         public Cliente(int id, string nome, string documento)
@@ -21,6 +22,7 @@ namespace RestauranteWeb.Domain.Entities
             DomainValidationException.Validar(id < 0, "ID ínválido");
             Id = id;
             ValidarCampos(nome, documento);
+            Pedidos = new List<Pedido>();
         }
 
         private void ValidarCampos(string nome, string documento)

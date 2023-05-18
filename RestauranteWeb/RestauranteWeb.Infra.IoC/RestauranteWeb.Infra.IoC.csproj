@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\RestauranteWeb.Application\RestauranteWeb.Application.csproj" />
     <ProjectReference Include="..\RestauranteWeb.Domain\RestauranteWeb.Domain.csproj" />
     <ProjectReference Include="..\RestauranteWeb.Infra.Data\RestauranteWeb.Infra.Data.csproj" />

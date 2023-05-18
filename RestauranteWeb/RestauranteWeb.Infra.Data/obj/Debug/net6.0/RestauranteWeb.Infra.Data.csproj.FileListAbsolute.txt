@@ -1,0 +1,15 @@
+C:\Users\gusta_ydcrnuq\OneDrive\Área de Trabalho\Projetos\RestauranteWeb\RestauranteWeb\RestauranteWeb.Infra.Data\bin\Debug\net6.0\RestauranteWeb.Infra.Data.deps.json
+C:\Users\gusta_ydcrnuq\OneDrive\Área de Trabalho\Projetos\RestauranteWeb\RestauranteWeb\RestauranteWeb.Infra.Data\bin\Debug\net6.0\RestauranteWeb.Infra.Data.dll
+C:\Users\gusta_ydcrnuq\OneDrive\Área de Trabalho\Projetos\RestauranteWeb\RestauranteWeb\RestauranteWeb.Infra.Data\bin\Debug\net6.0\RestauranteWeb.Infra.Data.pdb
+C:\Users\gusta_ydcrnuq\OneDrive\Área de Trabalho\Projetos\RestauranteWeb\RestauranteWeb\RestauranteWeb.Infra.Data\bin\Debug\net6.0\RestauranteWeb.Domain.dll
+C:\Users\gusta_ydcrnuq\OneDrive\Área de Trabalho\Projetos\RestauranteWeb\RestauranteWeb\RestauranteWeb.Infra.Data\bin\Debug\net6.0\RestauranteWeb.Domain.pdb
+C:\Users\gusta_ydcrnuq\OneDrive\Área de Trabalho\Projetos\RestauranteWeb\RestauranteWeb\RestauranteWeb.Infra.Data\obj\Debug\net6.0\RestauranteWeb.Infra.Data.csproj.AssemblyReference.cache
+C:\Users\gusta_ydcrnuq\OneDrive\Área de Trabalho\Projetos\RestauranteWeb\RestauranteWeb\RestauranteWeb.Infra.Data\obj\Debug\net6.0\RestauranteWeb.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gusta_ydcrnuq\OneDrive\Área de Trabalho\Projetos\RestauranteWeb\RestauranteWeb\RestauranteWeb.Infra.Data\obj\Debug\net6.0\RestauranteWeb.Infra.Data.AssemblyInfoInputs.cache
+C:\Users\gusta_ydcrnuq\OneDrive\Área de Trabalho\Projetos\RestauranteWeb\RestauranteWeb\RestauranteWeb.Infra.Data\obj\Debug\net6.0\RestauranteWeb.Infra.Data.AssemblyInfo.cs
+C:\Users\gusta_ydcrnuq\OneDrive\Área de Trabalho\Projetos\RestauranteWeb\RestauranteWeb\RestauranteWeb.Infra.Data\obj\Debug\net6.0\RestauranteWeb.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\gusta_ydcrnuq\OneDrive\Área de Trabalho\Projetos\RestauranteWeb\RestauranteWeb\RestauranteWeb.Infra.Data\obj\Debug\net6.0\RestauranteWeb.Infra.Data.csproj.CopyComplete
+C:\Users\gusta_ydcrnuq\OneDrive\Área de Trabalho\Projetos\RestauranteWeb\RestauranteWeb\RestauranteWeb.Infra.Data\obj\Debug\net6.0\RestauranteWeb.Infra.Data.dll
+C:\Users\gusta_ydcrnuq\OneDrive\Área de Trabalho\Projetos\RestauranteWeb\RestauranteWeb\RestauranteWeb.Infra.Data\obj\Debug\net6.0\refint\RestauranteWeb.Infra.Data.dll
+C:\Users\gusta_ydcrnuq\OneDrive\Área de Trabalho\Projetos\RestauranteWeb\RestauranteWeb\RestauranteWeb.Infra.Data\obj\Debug\net6.0\RestauranteWeb.Infra.Data.pdb
+C:\Users\gusta_ydcrnuq\OneDrive\Área de Trabalho\Projetos\RestauranteWeb\RestauranteWeb\RestauranteWeb.Infra.Data\obj\Debug\net6.0\ref\RestauranteWeb.Infra.Data.dll
