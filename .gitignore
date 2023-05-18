@@ -1,2 +1,4 @@
-RestauranteWeb/RestauranteWeb.Api/appsettings.*
-RestauranteWeb/RestauranteWeb.Api/bin/Debug/net6.0/appsettings.*
+RestauranteWeb/RestauranteWeb.Api/appsettings.json
+RestauranteWeb/RestauranteWeb.Api/appsettings.Development.json
+RestauranteWeb/RestauranteWeb.Api/bin/Debug/net6.0/appsettings.json
+RestauranteWeb/RestauranteWeb.Api/bin/Debug/net6.0/appsettings.Development.json
