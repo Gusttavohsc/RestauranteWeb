@@ -10,5 +10,6 @@ namespace RestauranteWeb.Domain.Repositories
         Task<Cliente> CreateAsync(Cliente cliente);
         Task EditAsync(Cliente cliente);
         Task DeleteAsync(Cliente cliente);
+        Task<int> GetIdByClienteIdAsync(int idCliente);
     }
 }

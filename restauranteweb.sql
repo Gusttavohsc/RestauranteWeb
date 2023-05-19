@@ -1,17 +1,17 @@
 /*
  Navicat Premium Data Transfer
 
- Source Server         : Storage
+ Source Server         : Local
  Source Server Type    : MySQL
- Source Server Version : 80032 (8.0.32)
- Source Host           : 10.0.0.100:3306
+ Source Server Version : 80033 (8.0.33)
+ Source Host           : localhost:3306
  Source Schema         : restauranteweb
 
  Target Server Type    : MySQL
- Target Server Version : 80032 (8.0.32)
+ Target Server Version : 80033 (8.0.33)
  File Encoding         : 65001
 
- Date: 17/05/2023 16:48:54
+ Date: 19/05/2023 02:20:24
 */
 
 SET NAMES utf8mb4;
@@ -25,6 +25,7 @@ CREATE TABLE `cliente`  (
   `NR_ID_CL` int NOT NULL AUTO_INCREMENT,
   `TX_NOME_CL` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   `TX_DOCUMENTO_CL` varchar(20) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `NR_MESA_CL` int NOT NULL,
   PRIMARY KEY (`NR_ID_CL`) USING BTREE
 ) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
 
@@ -37,8 +38,8 @@ CREATE TABLE `pedido`  (
   `NR_CLIENTE_ID_PE` int NOT NULL,
   `NR_PRATO_ID_PE` int NOT NULL,
   `NR_MESA_PE` int NOT NULL,
-  `TIME_PREPARO_PE` timestamp NOT NULL,
   `NR_VALOR_PE` decimal(6, 2) NOT NULL,
+  `TX_STATUS_PE` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT 'Enviado para Cozinha/Aceito/Preparando/A Caminho da mesa/Finalizado',
   PRIMARY KEY (`NR_ID_PE`) USING BTREE,
   INDEX `NR_CLIENTE_ID_PE`(`NR_CLIENTE_ID_PE` ASC) USING BTREE,
   INDEX `NR_PRATO_ID_PE`(`NR_PRATO_ID_PE` ASC) USING BTREE,
@@ -55,9 +56,9 @@ CREATE TABLE `prato`  (
   `TX_NOME_PR` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   `TX_DESCRICAO_PR` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
   `TX_CATEGORIA_PR` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
-  `TIME_PREPARO_PR` timestamp NOT NULL,
+  `TX_PREPARO_PR` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   `NR_VALOR_PR` decimal(6, 2) NOT NULL,
-  `ST_STATUS_PR` char(2) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `ST_STATUS_PR` tinyint NOT NULL,
   PRIMARY KEY (`NR_ID_PR`) USING BTREE
 ) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
 
